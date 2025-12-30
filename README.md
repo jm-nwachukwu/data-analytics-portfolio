@@ -31,4 +31,4 @@ Practical data analysis projects focused on data cleaning, exploratory analysis,
 📁 `week_03/sales_analysis_case_study.ipynb`
 
 ## Notes
-This portfolio is being built incrementally as part of a structured 12-week data analytics and data science learning roadmap.
+**This portfolio is being built incrementally as part of a structured 12-week data analytics and data science learning roadmap.**
