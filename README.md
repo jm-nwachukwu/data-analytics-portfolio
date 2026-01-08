@@ -76,6 +76,11 @@ The work is structured as a **cumulative learning and analysis journey**, where 
 - Communicating insights through structured narratives  
 - Writing an executive summary for decision-makers  
 
+**Week 6B:**
+Executive Tableau dashboard built from the same sales dataset to demonstrate demand patterns and revenue concentration.
+**File:**
+- `tableau_sales_dashboard.twbx`
+
 This notebook emphasizes **how analysis is communicated**, not just performed.
 
 ---
