@@ -1,113 +1,142 @@
 # Data Analytics Portfolio
 
-This repository documents my progression from foundational Python skills to end-to-end business data analysis and executive storytelling using real-world datasets.
+**End-to-end data analysis projects focused on business insight, clarity, and decision-making.**
 
-The work is structured as a **cumulative learning and analysis journey**, where each notebook builds on the previous ones. Notebooks are the primary artifacts; GitHub serves as an index and delivery layer.
-
----
-
-## 🎯 Target Role
-**Data Analyst**  
-(with a clear transition path toward Data Science)
+This repository documents a structured learning journey from Python and pandas fundamentals to portfolio-grade exploratory analysis, statistical reasoning, and executive-ready storytelling.
+All projects use real-world datasets and emphasize *how insights translate into business actions*.
 
 ---
 
-## 🧠 Core Skills Demonstrated
-- Python for data analysis
-- Pandas for data manipulation and aggregation
-- Exploratory data analysis (EDA)
-- Business-driven questioning
-- Data visualization with matplotlib
-- Insight communication and executive summaries
-- GitHub workflow and analytical documentation
+## What You’ll Find Here
+
+* Clean, well-documented Python notebooks
+* Real-world sales data analysis (18k+ rows)
+* Visual storytelling with matplotlib and Tableau
+* Statistical reasoning (volatility, correlation, pricing vs volume)
+* Executive summaries designed for non-technical stakeholders
 
 ---
 
-## 📁 Project Structure & Notebooks
+## Highlighted Work
 
-### **Week 01 — Python & Tabular Thinking**
-**Notebook:**  
-- `week_01/week_01_python_and_tabular_thinking.ipynb`
+* **Sales Analysis Case Study (Weeks 3-4)**
+  Full EDA, data cleaning, volatility analysis, and business recommendations using April 2019 sales data.
 
-**Focus:**
-- Fundamentals of Python logic and data structures  
-- Understanding how Python represents tabular business data  
-- Extracting insights from structured data using core Python concepts  
+* **Sales Exploration & Storytelling (Weeks 5-6)**
+  Product, city, and day-level revenue insights with clear visual narratives.
 
----
+* **Tableau Dashboard (Week 6B)**
+  Executive dashboard highlighting revenue concentration, pricing power, and demand patterns.
 
-### **Week 02 — Pandas & CSV Analysis**
-**Notebook:**  
-- `week_02/week_02_pandas_and_csv.ipynb`
+* **Statistical Analysis (Week 7)**
+  Correlation and scatter plot analysis answering:
+  *Are higher-priced products systematically responsible for higher revenue?*
 
-**Focus:**
-- Reading and exploring CSV files with pandas  
-- Filtering, grouping, and aggregating structured datasets  
-- Introduction to DataFrames and basic visualizations  
-
-**Dataset:**
-- `sales_data.csv` (included in the folder)
+* **Narrative & Portfolio Polish (Week 8)**
+  Final executive summaries, tightened insights, and reader-first structure.
 
 ---
 
-### **Weeks 03 & 04 — Sales Analysis Case Study**
-**Notebook:**  
-- `week_03&04/sales_analysis_case_study.ipynb`
+## Tools Used
 
-**Focus:**
-- Cleaning and analyzing a real-world transactional dataset (18,000+ rows)  
-- Identifying event-driven sales patterns and revenue volatility  
-- Translating analysis into business insights and actionable recommendations  
-
-**Dataset Source:**
-- Public April 2019 sales dataset  
-  (imported directly from an external GitHub repository)
+* Python (pandas, matplotlib)
+* Jupyter Notebook
+* Tableau
+* Git & GitHub
 
 ---
 
-### **Weeks 05 & 06 — Visualization, Storytelling & Executive Insights**
-**Notebook:**  
-- `week_05 & 06/sales_analysis_exploration.ipynb`
+⬇️ Scroll down to explore the projects week by week.
 
-**Focus:**
-- Revenue and demand analysis across products and cities  
-- Data visualization to support business questions  
-- Identifying pricing vs demand dynamics  
-- Communicating insights through structured narratives  
-- Writing an executive summary for decision-makers  
 
-**Week 6B:**
-Executive Tableau dashboard built from the same sales dataset to demonstrate demand patterns and revenue concentration.
-**File:**
-- `tableau_sales_dashboard.twbx`
+# Data Analytics Portfolio - Joseph M. Nwachukwu
 
-This notebook emphasizes **how analysis is communicated**, not just performed.
+This portfolio showcases a structured, cumulative learning journey from foundational data analysis skills to portfolio-grade projects, emphasizing clarity, business insight, and real-world datasets.
 
 ---
 
-## 📌 How to Navigate This Repository
-- Start from **Week 01** to see foundational thinking
-- Progress sequentially to observe increasing analytical depth
-- Each notebook is self-contained and includes:
-  - Clear business questions
-  - Data preparation steps
-  - Visualizations
-  - Interpreted insights
+## Portfolio Structure
+
+The repository is organized by weeks:
+
+- `week_01` - Python fundamentals and tabular thinking  
+- `week_02` - Pandas basics and CSV data exploration  
+- `week_03&04` - Sales analysis case study, data cleaning, EDA, business insights  
+- `week_05 & 06` - Advanced sales analysis, storytelling, visualizations, and executive summaries  
+- `week_06B` - Tableau dashboard demonstrating revenue insights  
+- `week_07` - Statistical analysis, correlation, scatter plots, interpretation  
+- `week_08` - Narrative polish, insight consolidation, executive-ready summaries
 
 ---
 
-## 📝 Notes on Workflow
-- Notebooks are the primary analytical artifacts  
-- GitHub README files act as navigational dashboards  
-- Insights are written inside notebooks first, then summarized here  
+## Notebook Overview
+
+### Week 1
+- **`week_01_python_and_tabular_thinking.ipynb`**  
+  Introduces Python logic and data structures; explores tabular business data and basic extraction of insights.
+
+### Week 2
+- **`week_02_pandas_and_csv.ipynb`**  
+  Teaches pandas basics: reading, filtering, grouping, and aggregating structured data; basic visualizations; includes `sales_data.csv`.
+
+### Weeks 3 & 4
+- **`sales_analysis_case_study.ipynb`**  
+  Cleaned and analyzed a real-world transactional dataset (18k+ rows); identified sales patterns and volatility; delivered actionable business insights.  
+  Dataset imported from: [Sales April 2019](https://raw.githubusercontent.com/KeithGalli/Pandas-Data-Science-Tasks/master/Sales-Data/Sales_April_2019.csv)
+
+### Weeks 5, 6 & 7
+- **`sales_analysis_exploration.ipynb`**  
+  Focused on visualization, storytelling, and executive summary; applied Week 1–4 analysis to create clear insights for stakeholders.
+  - **Statistical Analysis and Correlation**  
+  - Explored mean, median, standard deviation, and volatility  
+  - Computed correlations between price, quantity, and revenue  
+  - Visualized relationships with scatter plots  
+  - Interpreted results with business implications
+
+### Week 6B
+- **Tableau Dashboard (`tableau_sales_dashboard.twbx`)**  
+  - Visualizes daily revenue, top products, and city-level performance  
+  - Highlights high-revenue outliers and pricing-driven revenue  
+  - Supports business decisions with clean, executive-ready charts
+
+### Week 8
+- **Narrative and Portfolio Polish**  
+  - Added “How to Read This Notebook” for clarity  
+  - Tightened all business conclusions  
+  - Consolidated insights into executive summary  
+  - Ensured notebook flows top-to-bottom logically for readers
 
 ---
 
-## 🚀 Next Steps
-- Deeper statistical reasoning
-- Advanced visualization techniques
-- Transition into predictive modeling and machine learning
+## Key Takeaways
+
+- Revenue is highly concentrated among premium products; price drives revenue more than volume.  
+- Visualizations and statistical analysis validate insights and guide business decisions.  
+- Portfolio demonstrates end-to-end workflow: data cleaning → analysis → visualization → interpretation → executive communication.  
+- Emphasis on clarity, reproducibility, and business-focused storytelling.
 
 ---
 
-*This repository reflects an intentional, structured learning path rather than isolated exercises.*
+## How to Navigate
+
+1. Start with `week_01` to understand foundations.  
+2. Move sequentially through the weeks for cumulative learning.  
+3. Week 6B Tableau dashboard provides interactive visualization of Week 5–6 analysis.  
+4. Week 8 provides a polished executive-ready narrative for decision-making.
+
+---
+
+## Repository Goal
+
+This portfolio demonstrates the following skills:
+
+- Python-based data analysis  
+- Pandas aggregations and data cleaning  
+- Exploratory data analysis (EDA) and visualization  
+- Business interpretation and actionable insights  
+- Tableau visualization for executive reporting  
+- Portfolio-level narrative and storytelling  
+
+---
+
+*Prepared by Joseph M. Nwachukwu - Google Data Analytics course learner, aspiring business analyst with a focus on transitioning into data science and machine learning.*
